@@ -1,6 +1,7 @@
 {
   "name": "kanbanboardusingreact",
   "version": "0.1.0",
+  "homepage": "https://ShayneKaruna.github.io/kanbanboardusingreact",
   "private": true,
   "dependencies": {
     "materialize-css": "1.0.0",
@@ -18,6 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
